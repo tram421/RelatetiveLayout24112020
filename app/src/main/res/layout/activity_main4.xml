@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Top Content Here"
+        android:background="#E7082B"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bottom Content Here"
+        android:background="#959492"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="second"
+        android:background="#3486EC"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Three"
+        android:background="#D1A633"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/second"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First"
+        android:background="#25E337"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/second"/>
+
+
+</RelativeLayout>

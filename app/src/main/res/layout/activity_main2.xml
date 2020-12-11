@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="40sp"
+        android:layout_above="@+id/green"
+        android:textColor="#fff"
+        android:layout_alignStart="@+id/green"
+        android:background="#FF0000"
+        android:text="Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="40sp"
+        android:id="@+id/green"
+        android:layout_above="@+id/blue"
+        android:textColor="#fff"
+        android:layout_alignStart="@+id/blue"
+        android:background="#37FF00"
+        android:text="Green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="40sp"
+        android:id="@+id/blue"
+        android:layout_above="@+id/orange"
+        android:textColor="#fff"
+        android:layout_alignStart="@+id/orange"
+        android:background="#007BFF"
+        android:text="Blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="40sp"
+        android:id="@+id/orange"
+        android:textColor="#fff"
+        android:layout_centerInParent="true"
+        android:background="#FF6F00"
+        android:text="Orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="40sp"
+        android:id="@+id/gray"
+        android:textColor="#fff"
+        android:layout_alignStart="@+id/orange"
+        android:layout_below="@+id/orange"
+        android:background="#6A6A6A"
+        android:text="Gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="40sp"
+        android:textColor="#fff"
+        android:layout_alignStart="@+id/orange"
+        android:layout_below="@+id/gray"
+        android:background="#FF03DD"
+        android:text="Pink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>
